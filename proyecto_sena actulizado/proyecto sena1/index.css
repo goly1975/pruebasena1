@@ -1,0 +1,139 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #f1eaea;
+}
+
+/* Estilos de la cabecera */
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #53534e83;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.telefono {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Estilos del menú de navegación */
+.menu {
+    background-color: #333;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    margin: 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu ul li a:hover,
+.menu ul li a.activo {
+    background-color: #00a;
+}
+
+/* Estilos de la sección principal */
+.principal {
+    padding: 20px;
+}
+
+.principal h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.principal p {
+    text-align: justify;
+    line-height: 1.5;
+    
+   
+}
+
+/* Estilos de la sección secundaria */
+.secundaria {
+    padding: 20px;
+    
+}
+
+.secundaria h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.secundaria p {
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+/* Estilos del pie de página */
+.pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+}
+
+.redes li {
+    margin: 10px;
+}
+
+.redes li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.redes li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.pie p {
+    margin-top: 10px;
+}
+body{
+    background-image: url(img/portada.jpg);
+}
+
+.p{
+    background-color: #f0f0f0;
+}
+
+

@@ -1,0 +1,46 @@
+body 
+    {
+      background: linear-gradient(150deg, #b97d5b, #000000 )
+    }
+
+.producto__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+    
+  }
+  
+  .producto__info {
+    flex: 1;
+  }
+  
+  .producto__nombre {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .producto__precio {
+    color:#000000;
+    margin-bottom: 5px;
+  }
+  
+  .producto__comprar {
+    padding: 5px;
+    background-color: #e9390e ;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .productos__pagar {
+    width: 100%;
+    padding: 10px;
+    background-color:#e9390e;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  

@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link rel="stylesheet" href="citas.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Agendamiento de citas para la barbería</h1>
+        <form action="procesar.php" method="post">
+            <div class="campo">
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+            <div class="campo">
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="campo">
+                <label for="servicio">Servicio:</label>
+                <select id="servicio" name="servicio" required>
+                    <option value="">Seleccione un servicio</option>
+                    <option value="corte">Corte</option>
+                    <option value="barba">Barba</option>
+                    <option value="corte y barba">Corte y barba</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label for="barbero">Barbero:</label>
+                <select id="barbero" name="barbero" required>
+                    <option value="">Seleccione un barbero</option>
+                    <option value="juan">Juan</option>
+                    <option value="pedro">Pedro</option>
+                    <option value="luis">Luis</option>
+                </select>
+            </div>
+            <div class="campo">
+                <button type="submit">Agendar cita</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
